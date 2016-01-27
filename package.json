@@ -1,0 +1,30 @@
+{
+  "name": "webpack-sample-project",
+  "version": "1.0.0",
+  "description": "Sample webpack project",
+  "scripts": {
+    "start": "node_modules/.bin/webpack-dev-server --progress",
+    "build": "NODE_ENV=production node_modules/.bin/webpack --config ./webpack.production.config.js --progress"
+  },
+  "author": "Cássio Zen",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.4.0",
+    "babel-loader": "^6.2.1",
+    "babel-plugin-react-transform": "^2.0.0",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "css-loader": "^0.23.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "html-webpack-plugin": "^2.7.2",
+    "react-transform-hmr": "^1.0.1",
+    "style-loader": "^0.13.0",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0"
+  },
+  "dependencies": {
+    "json-loader": "^0.5.4",
+    "react": "^0.14.6",
+    "react-dom": "^0.14.6"
+  }
+}
