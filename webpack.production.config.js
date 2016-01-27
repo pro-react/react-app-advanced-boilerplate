@@ -22,10 +22,14 @@ module.exports = {
       },
       {
         test: /\.css$/,
-        loader: ExtractTextPlugin.extract('style', 'css?modules')
+        loader: ExtractTextPlugin.extract('style', 'css?modules!postcss')
       }
     ]
   },
+
+  postcss: [
+    require('autoprefixer')
+  ],
 
   plugins: [
     new HtmlWebpackPlugin({
