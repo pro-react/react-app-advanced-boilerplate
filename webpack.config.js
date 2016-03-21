@@ -43,6 +43,7 @@ module.exports = {
   devServer: {
     colors: true,
     historyApiFallback: true,
+    port: process.env.PORT||8080,
     inline: true,
     hot: true
   }
