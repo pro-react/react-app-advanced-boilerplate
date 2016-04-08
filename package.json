@@ -1,6 +1,6 @@
 {
   "name": "webpack-sample-project",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Sample webpack project",
   "scripts": {
     "start": "node_modules/.bin/webpack-dev-server --progress",
